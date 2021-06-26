@@ -24,3 +24,7 @@ Transaction6 = "Ted sends 3cc to James"
 openingBlock = CodeCoin("Opening String", [Transaction1, Transaction2])
 print(openingBlock.blockData)
 print(openingBlock.blockHash)
+
+secondBlock = CodeCoin(openingBlock.blockHash, [Transaction3, Transaction4])
+print(secondBlock.blockData)
+print(secondBlock.blockHash)
