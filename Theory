@@ -1,0 +1,12 @@
+CodeCoin (CC)
+
+Transaction1 = Toby send 3CC to Naomi
+Transaction2 = Naomi send 5.2CC to Chelsea
+Transaction3 = James sends 0.5CC to Laura
+
+
+Block1 = OpenBlock(Transaction1, Transaction2, Transaction3)
+-> 7463hf7 Block2 ( 4758hf83, Transaction4, Transaction5, Transaction6)
+-> 4756ir9 Block3("4756ir8, Transaction7)
+
+SamCodesHash()
