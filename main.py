@@ -28,3 +28,7 @@ print(openingBlock.blockHash)
 secondBlock = CodeCoin(openingBlock.blockHash, [Transaction3, Transaction4])
 print(secondBlock.blockData)
 print(secondBlock.blockHash)
+
+ThirdBlock = CodeCoin(secondBlock.blockHash, [Transaction5, Transaction6])
+print(ThirdBlock.blockData)
+print(ThirdBlock.blockHash)
